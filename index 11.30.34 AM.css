@@ -1,0 +1,98 @@
+
+      * {
+        box-sizing: border-box;
+      }
+
+      form {border: 0px solid #f1f1f1;}
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-image: url("img/shop.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+       height: 100%;
+  
+      }
+
+       html {
+        margin:0;
+        height: 100%;
+       }
+ 
+       
+      .img-text {
+        text-align: center;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0px;
+
+  
+      }
+      .form  {
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        text-align: center;
+        position:relative;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+      }
+        
+
+      .btn {
+        width: 250px;
+        -webkit-transition-duration: 0.4s;  Safari 
+        transition-duration: 0.4s;
+        background-color: rgb(224,255,255);
+        color: black;
+        border: 2px solid rgb(253, 226, 226);
+        padding: 10px 24px;
+      }
+
+      .btn:hover {
+        background-color: rgb(0,0,255);
+      }
+
+      form.search input[type=text] {
+      padding: 5px;
+      font-size: 17px;
+      border: 1px solid grey;
+      float: left;
+      width: 80%;
+      background: #f1f1f1;
+ 
+    }
+
+    form.search button {
+      float: left;
+      width: 20%;
+      padding: 5px;
+      background: blue;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+     }
+
+    form.search button:hover {
+      background: rgb(0,0,255);
+    }
+
+    form.search::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+ 
+ 
+ 
+  
